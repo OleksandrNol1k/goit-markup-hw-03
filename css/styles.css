@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: rgb(67, 68, 85);
+    background: rgb(255, 255, 255);
 }
 
 a {
@@ -13,4 +13,69 @@ ul,
 ol,
 li {
     list-style: none;
+}
+
+.section-title {
+    color: rgb(46, 47, 66);
+    font-size: 32px;
+}
+
+h3 {
+    color: rgb(46, 47, 66);
+    font-size: 20px;
+}
+
+.top-logo {
+    font-family: "raleway", sans-serif;
+    color: rgb(46, 47, 66);
+    text-transform: uppercase;
+}
+
+.top-logo-accent, 
+.foot-logo-accent {
+    color: rgb(77, 90, 229);
+}
+
+.menu-nav {
+    color: rgb(46, 47, 66);
+}
+
+.nav-link1:hover,
+.nav-link2:hover,
+.nav-link3:hover,
+.address-link:hover {
+    color: rgb(64, 75, 191);
+}
+
+.nav-link1:focus {
+    text-decoration: overline;
+    color: rgb(64, 75, 191);
+}
+
+.hero {
+    color: rgb(255, 255, 255);
+    background: rgb(46, 47, 66);
+}
+
+.hero-title {
+        color: rgb(255, 255, 255);
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: center;
+}
+
+.studio {
+    background: rgb(244, 244, 253);
+}
+
+.foot-line {
+    background: rgb(46, 47, 66);
+    color: rgb(244, 244, 253);
+}
+
+.foot-logo {
+    font-family: "raleway", sans-serif;
+    color: inherit;
+    text-transform: uppercase;
 }
