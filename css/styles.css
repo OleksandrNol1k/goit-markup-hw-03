@@ -35,20 +35,20 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .top-logo {
     font-family: "raleway", sans-serif;
-    color: rgb(46, 47, 66);
+    color: rgb(77, 90, 229);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
 }
 
-.top-logo-accent, 
-.foot-logo-accent {
-    color: rgb(77, 90, 229);
+.top-logo-accent {
+    color: rgb(46, 47, 66);
 }
 
 .menu-nav {
@@ -82,17 +82,23 @@ h3 {
     color: rgb(255, 255, 255);
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.07;
     line-height: 60px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 .hero-button {
     color: rgb(255, 255, 255);
     background: rgb(77, 90, 229);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
     cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background: rgb(64, 75, 191);
 }
 
@@ -105,7 +111,30 @@ h3 {
 .third-team-card,
 .fourth-team-card {
     text-align: center;
+    background: rgb(255, 255, 255);
 }
+
+/* .team-card-title {
+    
+} */
+
+.team-card-paragraph {
+    font-size: 16px;
+}
+
+.portfolio-section-title {
+    color: rgb(46, 47, 66);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* .portfolio-title {
+    letter-spacing: 0.02em;
+} */
 
 .foot-line {
     background: rgb(46, 47, 66);
@@ -114,12 +143,16 @@ h3 {
 
 .foot-logo {
     font-family: "raleway", sans-serif;
-    color: inherit;
+    color: rgb(77, 90, 229);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.foot-logo-accent {
+    color: rgb(244, 244, 253);
 }
 
 .foot-text {
