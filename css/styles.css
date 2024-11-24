@@ -55,6 +55,7 @@ h3 {
 
 .menu-nav {
     color: rgb(46, 47, 66);
+    font-weight: 500;
 }
 
 .first-nav-link:hover,
@@ -107,10 +108,7 @@ h3 {
     background: rgb(244, 244, 253);
 }
 
-.first-team-card,
-.second-team-card,
-.third-team-card,
-.fourth-team-card {
+.team-card {
     text-align: center;
     background: rgb(255, 255, 255);
 }
