@@ -58,16 +58,12 @@ h3 {
     font-weight: 500;
 }
 
-.first-nav-link:hover,
-.second-nav-link:hover,
-.third-nav-link:hover,
+.nav-link:hover,
 .address-link:hover {
     color: rgb(64, 75, 191);
 }
 
-.first-nav-link:focus,
-.second-nav-link:focus,
-.third-nav-link:focus,
+.nav-link:focus,
 .address-link:focus {
     color: rgb(64, 75, 191);
 }
