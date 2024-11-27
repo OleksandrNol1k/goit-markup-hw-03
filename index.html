@@ -13,12 +13,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
         integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+            integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- add css file -->
         <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="top-line">
-        <div class="container-header">
+        <div class="container">
             <nav class="navigation">
                 <a class="top-logo" href="./index.html">Web<span class="top-logo-accent">Studio</span></a>
                 <ul class="menu-nav">
@@ -57,11 +61,11 @@
         
         <section class="advanteges-section">
             <div class="container">
-                <h2 class="section-title">
+                <h2 class="visually-hidden">
                     Our advantages
                 </h2>
                 <ul class="advantages-list">
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title">
                             Strategy
                         </h3>
@@ -70,7 +74,7 @@
                             problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title">
                             Punctuality
                         </h3>
@@ -78,7 +82,7 @@
                             Bring the key message to the brand's audience for the best price within the shortest possible time.
                         </p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title">
                             Diligence
                         </h3>
@@ -86,7 +90,7 @@
                             Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
                         </p>
                     </li>
-                    <li>
+                    <li class="advatages-item">
                         <h3 class="advantages-title">
                             Technologies
                         </h3>
@@ -104,23 +108,31 @@
                 <ul class="team-list">
                     <li class="team-card">
                         <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
-                        <h3 class="team-card-title">Mark Guerrero</h3>
-                        <p class="team-card-paragraph">Product Designer</p>
+                        <div class="team-card-text">
+                            <h3 class="team-card-title">Mark Guerrero</h3>
+                            <p class="team-card-paragraph">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
-                        <h3 class="team-card-title">Tom Ford</h3>
-                        <p class="team-card-paragraph">Frontend Developer</p>
+                        <div class="team-card-text">
+                            <h3 class="team-card-title">Tom Ford</h3>
+                            <p class="team-card-paragraph">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
-                        <h3 class="team-card-title">Camila Garcia</h3>
-                        <p class="team-card-paragraph">Marketing</p>
+                        <div class="team-card-text">
+                            <h3 class="team-card-title">Camila Garcia</h3>
+                            <p class="team-card-paragraph">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
-                        <h3 class="team-card-title">Daniel Wilson</h3>
-                        <p class="team-card-paragraph">UI Designer</p>
+                        <div class="team-card-text">
+                            <h3 class="team-card-title">Daniel Wilson</h3>
+                            <p class="team-card-paragraph">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -130,35 +142,47 @@
             <div class="container">
                 <h2 class="portfolio-section-title">Our Portfolio</h2>
                 <ul class="portfolio-list">
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/banking-app.jpg" alt="Banking App" width="360" height="300" />
-                        <h3 class="portfolio-title">Banking App</h3>
-                        <p class="portfolio-paragraph">App</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Banking App</h3>
+                            <p class="portfolio-paragraph">App</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300" />
-                        <h3 class="portfolio-title">Cashless Payment</h3>
-                        <p class="portfolio-paragraph">Marketing</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Cashless Payment</h3>
+                            <p class="portfolio-paragraph">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300" />
-                        <h3 class="portfolio-title">Meditation App</h3>
-                        <p class="portfolio-paragraph">App</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Meditation App</h3>
+                            <p class="portfolio-paragraph">App</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300" />
-                        <h3 class="portfolio-title">Taxi Service</h3>
-                        <p class="portfolio-paragraph">Marketing</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Taxi Service</h3>
+                            <p class="portfolio-paragraph">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360" height="300" />
-                        <h3 class="portfolio-title">Screen Illustrations</h3>
-                        <p class="portfolio-paragraph">Design</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Screen Illustrations</h3>
+                            <p class="portfolio-paragraph">Design</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="portfolio-item">
                         <img src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300" />
-                        <h3 class="portfolio-title">Online Courses</h3>
-                        <p class="portfolio-paragraph">Marketing</p>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Online Courses</h3>
+                            <p class="portfolio-paragraph">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
