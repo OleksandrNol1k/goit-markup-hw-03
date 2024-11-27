@@ -70,7 +70,7 @@ h3 {
     display: flex;
     width: 1128px;
     border-bottom: 1px solid rgb(231, 233, 252);
-    align-items: center;
+    /* align-items: center; */
     margin: auto;
     /* max-width: ; */
     /* padding-left: ; */
@@ -98,7 +98,7 @@ h3 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .top-logo-accent {
@@ -132,16 +132,16 @@ h3 {
     display: flex;
 }
 
-.address-list:first-child {
+/* .address-list:first-child {
     gap: 40px;
-}
+} */
 
 .container {
     display: flex;
     width: 1128px;
     margin: auto;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .hero-section {
@@ -172,6 +172,10 @@ h3 {
 .hero-button:hover,
 .hero-button:focus {
     background: rgb(64, 75, 191);
+}
+
+.advantages-list {
+    display: flex;
 }
 
 .studio-section {
