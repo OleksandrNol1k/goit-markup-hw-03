@@ -91,7 +91,6 @@ h3 {
 .top-logo {
     border: 1px solid rgb(0, 0, 0);
     margin-right: 76px;
-    padding: 0 15px;
 }
 
 .top-logo,
@@ -116,6 +115,11 @@ h3 {
     margin-right: 332px;
     color: rgb(46, 47, 66);
     font-weight: 500;
+    gap: 40px;
+}
+
+.nav-link {
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -134,6 +138,7 @@ h3 {
 
 .address-list {
     display: flex;
+    gap: 40px;
 }
 
 /* .address-list:first-child {
@@ -143,8 +148,9 @@ h3 {
 .container {
     display: flex;
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
     flex-direction: column;
+    padding: 0 15px;
     /* align-items: center; */
 }
 
@@ -220,6 +226,7 @@ h3 {
 }
 
 .team-card {
+    width: calc((100% - 72px) / 4);
     text-align: center;
     background: rgb(255, 255, 255);
     border-radius: 0px 0px 4px 4px;
