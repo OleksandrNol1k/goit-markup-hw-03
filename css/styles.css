@@ -67,21 +67,14 @@ h3 {
     margin-bottom: 72px;
 }
 
+.top-container {
+    display: flex;
+    padding: 24px 0;
+}
+
 .top-line {
     border-bottom: 1px solid rgb(231, 233, 252);
 }
-
-/* .container-header {
-    display: flex;
-    width: 1128px;
-    align-items: center;
-    margin: auto;
-    max-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
-} */
 
 .navigation {
     display: flex;
@@ -89,7 +82,6 @@ h3 {
 }
 
 .top-logo {
-    border: 1px solid rgb(0, 0, 0);
     margin-right: 76px;
 }
 
@@ -110,8 +102,6 @@ h3 {
 
 .menu-nav {
     display: flex;
-    justify-content: space-between;
-    width: 261px;
     margin-right: 332px;
     color: rgb(46, 47, 66);
     font-weight: 500;
@@ -141,17 +131,10 @@ h3 {
     gap: 40px;
 }
 
-/* .address-list:first-child {
-    gap: 40px;
-} */
-
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
-    flex-direction: column;
     padding: 0 15px;
-    /* align-items: center; */
 }
 
 .hero-section {
@@ -168,6 +151,8 @@ h3 {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -176,11 +161,13 @@ h3 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
     cursor: pointer;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 
 .hero-button:hover,
