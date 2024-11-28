@@ -91,6 +91,7 @@ h3 {
 .top-logo {
     border: 1px solid rgb(0, 0, 0);
     margin-right: 76px;
+    padding: 0 15px;
 }
 
 .top-logo,
